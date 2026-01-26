@@ -1,0 +1,27 @@
+
+
+
+.home-box {
+    height: 30vw;
+    width: 80%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     object-fit: cover;
+    overflow: hidden;
+}
+
+.home-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10vw;
+    margin: 20vw 0;
+}
+
+.home-box img {
+    width: 100%;
+    height: 30vw;
+}
